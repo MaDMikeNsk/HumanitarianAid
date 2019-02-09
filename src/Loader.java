@@ -10,9 +10,9 @@ public class Loader {
 
         long truckNumber;
         long containerNumber;
-        int BOX_PER_CONTAINER = 27;
-        int CONTAINER_PER_TRUCK = 12;
-        int BOX_PER_TRUCK = 324;
+        final int BOX_PER_CONTAINER = 27;
+        final int CONTAINER_PER_TRUCK = 12;
+        final int BOX_PER_TRUCK = 324;
 
         //Защита от дурака, взял тут: http://qaru.site/questions/280/validating-input-using-javautilscanner
         Scanner sc = new Scanner(System.in);
